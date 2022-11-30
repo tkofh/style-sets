@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-11-30)
+
+### Features
+
+- **style-sets:** implement ([dfabe02](https://github.com/tkofh/style-sets/commit/dfabe02ed115c2412ac63446f57eb251ea1dd0ea))
+
 # 0.2.0 (2022-11-30)
 
 ### Features
