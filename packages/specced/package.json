@@ -1,0 +1,45 @@
+{
+  "name": "style-sets",
+  "version": "0.2.0",
+  "description": "component-oriented classname generation utilites",
+  "keywords": [],
+  "author": "Tim Morris <timthewebguy@gmail.com>",
+  "homepage": "https://github.com/tkofh/style-sets/tree/main/packages/style-sets#readme",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkofh/style-sets.git"
+  },
+  "scripts": {
+    "lint": "eslint --cache --fix --ext='.ts,.(m|c)?js' .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublish": "unbuild"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "unbuild": "^0.9.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.24.3"
+  },
+  "gitHead": "4c9db560932348c759d82cb9a0d6cc001ba5ca56"
+}
